@@ -1,0 +1,248 @@
+╔═══════════════════════════════════════════════════════════════╗
+║      Phase 3 Step 2: 패치 버전 설치                          ║
+╚═══════════════════════════════════════════════════════════════╝
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[1/3] open62541 v1.4.14 설치
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📦 다운로드 중...
+
+     0K .......... .......... .......... .......... ..........  1% 6.61M 1s
+    50K .......... .......... .......... .......... ..........  2% 10.8M 0s
+   100K .......... .......... .......... .......... ..........  3% 11.2M 0s
+   150K .......... .......... .......... .......... ..........  4% 10.8M 0s
+   200K .......... .......... .......... .......... ..........  6% 11.0M 0s
+   250K .......... .......... .......... .......... ..........  7% 10.7M 0s
+   300K .......... .......... .......... .......... ..........  8% 11.4M 0s
+   350K .......... .......... .......... .......... ..........  9% 10.9M 0s
+   400K .......... .......... .......... .......... .......... 10% 11.1M 0s
+   450K .......... .......... .......... .......... .......... 12% 10.8M 0s
+   500K .......... .......... .......... .......... .......... 13% 7.95M 0s
+   550K .......... .......... .......... .......... .......... 14% 2.40M 0s
+   600K .......... .......... .......... .......... .......... 15% 21.8M 0s
+   650K .......... .......... .......... .......... .......... 16% 8.89M 0s
+   700K .......... .......... .......... .......... .......... 18% 11.2M 0s
+   750K .......... .......... .......... .......... .......... 19% 11.3M 0s
+   800K .......... .......... .......... .......... .......... 20% 10.9M 0s
+   850K .......... .......... .......... .......... .......... 21% 11.1M 0s
+   900K .......... .......... .......... .......... .......... 23% 10.8M 0s
+   950K .......... .......... .......... .......... .......... 24% 10.8M 0s
+  1000K .......... .......... .......... .......... .......... 25% 11.1M 0s
+  1050K .......... .......... .......... .......... .......... 26% 11.3M 0s
+  1100K .......... .......... .......... .......... .......... 27% 10.9M 0s
+  1150K .......... .......... .......... .......... .......... 29% 10.8M 0s
+  1200K .......... .......... .......... .......... .......... 30% 10.0M 0s
+  1250K .......... .......... .......... .......... .......... 31% 12.7M 0s
+  1300K .......... .......... .......... .......... .......... 32% 11.0M 0s
+  1350K .......... .......... .......... .......... .......... 33% 10.8M 0s
+  1400K .......... .......... .......... .......... .......... 35% 11.1M 0s
+  1450K .......... .......... .......... .......... .......... 36% 10.6M 0s
+  1500K .......... .......... .......... .......... .......... 37% 11.3M 0s
+  1550K .......... .......... .......... .......... .......... 38% 11.2M 0s
+  1600K .......... .......... .......... .......... .......... 40% 10.7M 0s
+  1650K .......... .......... .......... .......... .......... 41% 11.0M 0s
+  1700K .......... .......... .......... .......... .......... 42% 11.1M 0s
+  1750K .......... .......... .......... .......... .......... 43% 10.9M 0s
+  1800K .......... .......... .......... .......... .......... 44% 10.9M 0s
+  1850K .......... .......... .......... .......... .......... 46% 11.1M 0s
+  1900K .......... .......... .......... .......... .......... 47% 10.9M 0s
+  1950K .......... .......... .......... .......... .......... 48% 11.2M 0s
+  2000K .......... .......... .......... .......... .......... 49% 11.2M 0s
+  2050K .......... .......... .......... .......... .......... 50% 10.5M 0s
+  2100K .......... .......... .......... .......... .......... 52% 11.1M 0s
+  2150K .......... .......... .......... .......... .......... 53% 11.0M 0s
+  2200K .......... .......... .......... .......... .......... 54% 10.9M 0s
+  2250K .......... .......... .......... .......... .......... 55% 10.9M 0s
+  2300K .......... .......... .......... .......... .......... 57% 11.2M 0s
+  2350K .......... .......... .......... .......... .......... 58% 10.9M 0s
+  2400K .......... .......... .......... .......... .......... 59% 11.2M 0s
+  2450K .......... .......... .......... .......... .......... 60% 11.2M 0s
+  2500K .......... .......... .......... .......... .......... 61% 10.6M 0s
+  2550K .......... .......... .......... .......... .......... 63% 10.9M 0s
+  2600K .......... .......... .......... .......... .......... 64% 11.2M 0s
+  2650K .......... .......... .......... .......... .......... 65% 11.1M 0s
+  2700K .......... .......... .......... .......... .......... 66% 10.6M 0s
+  2750K .......... .......... .......... .......... .......... 67% 11.1M 0s
+  2800K .......... .......... .......... .......... .......... 69% 11.2M 0s
+  2850K .......... .......... .......... .......... .......... 70% 10.9M 0s
+  2900K .......... .......... .......... .......... .......... 71% 11.2M 0s
+  2950K .......... .......... .......... .......... .......... 72% 10.9M 0s
+  3000K .......... .......... .......... .......... .......... 73% 10.8M 0s
+  3050K .......... .......... .......... .......... .......... 75% 11.2M 0s
+  3100K .......... .......... .......... .......... .......... 76% 11.2M 0s
+  3150K .......... .......... .......... .......... .......... 77% 10.8M 0s
+  3200K .......... .......... .......... .......... .......... 78% 10.9M 0s
+  3250K .......... .......... .......... .......... .......... 80% 11.2M 0s
+  3300K .......... .......... .......... .......... .......... 81% 10.8M 0s
+  3350K .......... .......... .......... .......... .......... 82% 11.2M 0s
+  3400K .......... .......... .......... .......... .......... 83% 10.9M 0s
+  3450K .......... .......... .......... .......... .......... 84% 11.2M 0s
+  3500K .......... .......... .......... .......... .......... 86% 10.9M 0s
+  3550K .......... .......... .......... .......... .......... 87% 11.3M 0s
+  3600K .......... .......... .......... .......... .......... 88% 10.8M 0s
+  3650K .......... .......... .......... .......... .......... 89% 10.9M 0s
+  3700K .......... .......... .......... .......... .......... 90% 10.9M 0s
+  3750K .......... .......... .......... .......... .......... 92% 11.3M 0s
+  3800K .......... .......... .......... .......... .......... 93% 10.4M 0s
+  3850K .......... .......... .......... .......... .......... 94% 11.1M 0s
+  3900K .......... .......... .......... .......... .......... 95% 11.2M 0s
+  3950K .......... .......... .......... .......... .......... 97% 10.9M 0s
+  4000K .......... .......... .......... .......... .......... 98% 11.1M 0s
+  4050K .......... .......... .......... .......... .......... 99% 11.0M 0s
+  4100K .......... .......... ..                              100% 11.3M=0.4s📦 UA Nodeset 다운로드...
+🔨 빌드 시작...
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+fatal: not a git repository (or any of the parent directories): .git
+CMake Warning at tools/cmake/SetGitBasedVersion.cmake:23 (message):
+  Failed to determine the version from git information.  Using defaults.
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (set_open62541_version)
+
+
+-- open62541 Version: v1.4.14-undefined
+-- The selected architecture is: posix
+CMake Deprecation Warning at CMakeLists.txt:169 (message):
+  Set UA_ENABLE_ENCRYPTION to the desired encryption library.
+
+
+-- Found MbedTLS: /usr/include  
+-- Test CC flag -std=c99
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -pipe
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wall
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wextra
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wpedantic
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wno-static-in-inline
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wno-overlength-strings
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wno-unused-parameter
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wno-maybe-uninitialized
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wc++-compat
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wno-jump-misses-init
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wformat
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wformat-security
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wformat-nonliteral
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wmissing-prototypes
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wstrict-prototypes
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wredundant-decls
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wuninitialized
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Winit-self
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wcast-qual
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wstrict-overflow
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wnested-externs
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wmultichar
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -Wundef
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fno-strict-aliasing
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fexceptions
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -pthread
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fhardened
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Failed
+-- Test CC flag -ffunction-sections
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fdata-sections
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fno-unwind-tables
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fno-asynchronous-unwind-tables
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Test CC flag -fno-math-errno
+-- Performing Test flag_supported
+-- Performing Test flag_supported - Success
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Could NOT find LATEX (missing: LATEX_COMPILER) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/opcua-research/open62541-1.4.14/build
+make[2]: *** No rule to make target '../deps/ua-nodeset/DI/Opc.Ua.Di.NodeIds.csv', needed by 'src_generated/open62541/di_nodeids.h'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:2091: examples/nodeset/CMakeFiles/open62541-generator-ids-di.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '../deps/ua-nodeset/DI/Opc.Ua.Di.NodeIds.csv', needed by 'src_generated/open62541/types_di_generated.c'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:2065: examples/nodeset/CMakeFiles/open62541-generator-types-di.dir/all] Error 2
+[  1%] Generating ../../src_generated/open62541/example_nodeids.h
+[  1%] Generating src_generated/open62541/nodeids.h
+[  1%] Generating src_generated/open62541/transport_generated.c, src_generated/open62541/transport_generated.h, src_generated/open62541/transport_generated_handling.h
+[  2%] Generating src_generated/open62541/types_generated.c, src_generated/open62541/types_generated.h, src_generated/open62541/types_generated_handling.h
+[  2%] Generating ../../src_generated/open62541/testnodeset_nodeids.h
+[  5%] Generating ../../src_generated/open62541/namespace_example_generated.c, ../../src_generated/open62541/namespace_example_generated.h
+[  5%] Generating src_generated/open62541/statuscodes.h, src_generated/open62541/statuscodes.c
+[  5%] Generating ../../src_generated/open62541/types_testnodeset_generated.c, ../../src_generated/open62541/types_testnodeset_generated.h, ../../src_generated/open62541/types_testnodeset_generated_handling.h
+[  5%] Generating ../../src_generated/open62541/powerlink_nodeids.h
+[  5%] Generating ../../src_generated/open62541/types_powerlink_generated.c, ../../src_generated/open62541/types_powerlink_generated.h, ../../src_generated/open62541/types_powerlink_generated_handling.h
+[  5%] Built target open62541-generator-ids-testnodeset
+[  5%] Built target open62541-generator-ids_example
+[  5%] Built target open62541-generator-ids-powerlink
+INFO:__main__:Preprocessing (existing) /root/opcua-research/open62541-1.4.14/examples/nodeset/../../tools/schema/Opc.Ua.NodeSet2.Reduced.xml
+[  5%] Built target open62541-generator-statuscode
+[  5%] Built target open62541-generator-types-testnodeset
+INFO:__main__:Preprocessing /root/opcua-research/open62541-1.4.14/examples/nodeset/server_nodeset.xml
+[  5%] Built target open62541-generator-transport
+[  5%] Built target open62541-generator-types
+INFO:__main__:Generating Code for Backend: open62541
+INFO:__main__:NodeSet generation code successfully printed
+[  5%] Built target open62541-generator-ns-example
+[  5%] Built target open62541-generator-types-powerlink
+make: *** [Makefile:136: all] Error 2
