@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+python-opcua-env/
+venv/
+env/
+
+# 로그 파일
+*.log
+logs/
+
+# PID 파일
+*.pid
+*_pids.txt
+
+# 빌드 파일
+build/
+dist/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 임시 파일
+*.tmp
+*.bak
+*~
+
+# 컴파일된 바이너리
+*.o
+*.a
+*.exe
+*.bin
+
+# 압축 파일
+*.tar.gz
+*.zip
+*.tgz
+
+# 대용량 라이브러리 소스 코드 (GitHub에서 다운로드 가능)
+S2OPC-*/
+open62541-*/
+
+# 개인 설정
+.env
+.DS_Store
+

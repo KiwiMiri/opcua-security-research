@@ -1,6 +1,8 @@
-# OPC UA 연구 환경
+# OPC UA Security Research Project
 
-다양한 OPC UA 구현체를 비교 분석하기 위한 종합적인 실험 환경입니다.
+## 프로젝트 개요
+
+산업 제어 시스템에서 사용되는 OPC UA 프로토콜의 보안 취약점을 연구하는 프로젝트입니다. 다양한 OPC UA 구현체를 비교 분석하기 위한 종합적인 실험 환경을 제공합니다.
 
 ## 🎯 지원하는 OPC UA 구현체
 
@@ -11,6 +13,23 @@
 | **open62541** | C | 4842 | open62541 | 네이티브 성능, 메모리 효율성 |
 | **FreeOpcUa** | Python | 4843 | `freeopcua` | 경량화된 Python 구현 |
 | **Eclipse Milo** | Java | 4844 | Eclipse Milo | 엔터프라이즈급 Java 구현 |
+| **S2OPC** | C | 4845 | S2OPC | 산업용 고성능 구현 |
+
+## 🔬 연구 단계
+
+### Phase 1: 취약한 버전 서버 구현
+- S2OPC v1.4.0
+- python-opcua v0.98.13  
+- open62541 v1.3.8
+
+### Phase 2: 교차 공격 테스트
+- 서로 다른 구현체 간 공격 테스트
+- MITM 프록시를 통한 패킷 분석
+
+### Phase 3: 패치 버전 비교
+- S2OPC v1.6.0
+- opcua-asyncio v1.1.8
+- open62541 v1.4.14
 
 ## 🚀 빠른 시작
 
@@ -58,6 +77,8 @@ netstat -tlnp | grep 484
 │   ├── pcap/            # 패킷 캡처 파일
 │   ├── mitm/            # MITM 로그
 │   └── analysis/        # 분석 결과
+├── exploits/            # 공격 도구 및 분석 스크립트
+├── sbom_analysis/       # 공급망 보안 분석
 └── logs/                # 서버 로그
 ```
 
@@ -172,6 +193,11 @@ netstat -tlnp | grep 484
 - **단점**: 메모리 사용량 높음, JVM 오버헤드
 - **적합한 용도**: 대규모 시스템, 엔터프라이즈 환경
 
+### S2OPC (C)
+- **장점**: 산업용 고성능, 안정성
+- **단점**: 복잡한 설정, 라이선스 제약
+- **적합한 용도**: 산업용 시스템, 고신뢰성 요구사항
+
 ## 🐳 Docker 사용법
 
 ### 컨테이너 빌드
@@ -210,6 +236,17 @@ docker-compose down
 - `results/mitm/`: MITM 프록시 로그
 - `results/analysis/`: 분석 결과
 
+## 🛡️ 보안 연구
+
+### 주요 파일
+- `start_servers.sh`: 취약한 버전 서버 시작
+- `phase3_patched_versions/start_patched_servers.sh`: 패치 버전 서버 시작
+- `exploits/`: 공격 도구 및 분석 스크립트
+- `sbom_analysis/`: 공급망 보안 분석
+
+### 연구 목적
+이 프로젝트는 교육 및 연구 목적으로만 사용됩니다.
+
 ## 🤝 기여하기
 
 1. Fork the repository
@@ -220,11 +257,9 @@ docker-compose down
 
 ## 📄 라이선스
 
-이 프로젝트는 MIT 라이선스 하에 배포됩니다.
+연구 목적으로만 사용하시기 바랍니다.
 
 ## 📞 지원
 
 문제가 발생하거나 질문이 있으시면 이슈를 생성해 주세요.
-
-
 
