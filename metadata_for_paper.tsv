@@ -1,0 +1,22 @@
+# OPC UA Implementation Metadata for Paper
+# Generated: 2025-10-26T04:14:00Z
+
+Implementation	Language	Version	Commit_Hash	Build_Environment	Binary_SHA256	Pcap_File	Pcap_SHA256	Notes
+Python-opcua	Python	0.98.13	N/A	pip install	/root/opcua-research/venv/lib/python3.12/site-packages/opcua	pcaps/python_username_normal.pcap	3853288aad66a22c920b0ae7efe9b67b7b7c59de3d1b78a30d262aac0c2c9c72	PyPI official package
+FreeOpcUa	Python	0.90.6	N/A	pip install	/root/opcua-research/venv/lib/python3.12/site-packages/freeopcua	pcaps/freeopcua_attack.pcap	e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749	Python-opcua wrapper
+Node.js opcua	JavaScript	2.157.0	N/A	npm install -g	/usr/local/lib/node_modules/node-opcua	pcaps/node_attack.pcap	e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749	npm official package
+Eclipse Milo	Java	0.6.9	1.0-SNAPSHOT	Maven 3.8.7; Java 17	servers/eclipse-milo/opcua-server/target	pcaps/milo_attack.pcap	e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749	Eclipse Foundation; SDK version 0.6.9
+S2OPC	C	2554226f9	2554226f982c35c1e437cb0387eb4f347ea17865	GCC 13.3.0; CMake 3.28.3	N/A	pcaps/N/A	N/A	GitLab (Systerel); 2025-10-20 commit
+open62541	C	N/A	N/A	GCC; CMake	N/A	pcaps/open62541_attack.pcap	e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749	Binary only; source not present
+
+# Build Environment Details:
+# OS: Linux aarch64 (Docker container)
+# GCC: 13.3.0 (Ubuntu 24.04)
+# CMake: 3.28.3
+# Java: OpenJDK 17.0.16
+# Maven: 3.8.7
+# Python: 3.12.3
+# Node: v18.19.1
+
+# PCAP SHA256 Verification:
+# Use: sha256sum -c pcap_checksums.txt

@@ -1,0 +1,10 @@
+[2025-10-26 04:40:33.140 (UTC+0000)] [33mwarn/server[0m	AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2025-10-26 04:40:33.140 (UTC+0000)] [32minfo/server[0m	AccessControl: Anonymous login is enabled
+[2025-10-26 04:40:33.140 (UTC+0000)] [33mwarn/server[0m	x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2025-10-26 04:40:33.141 (UTC+0000)] [32minfo/session[0m	TCP 0	| SC 0	| Session "Administrator"	| AddNode (i=15303): No TypeDefinition. Use the default TypeDefinition for the Variable/Object
+[2025-10-26 04:40:33.143 (UTC+0000)] [32minfo/session[0m	TCP 0	| SC 0	| Session "Administrator"	| AddNode (i=25451): No TypeDefinition. Use the default TypeDefinition for the Variable/Object
+[2025-10-26 04:40:33.147 (UTC+0000)] [33mwarn/userland[0m	ServerUrls already set. Overriding.
+[2025-10-26 04:40:33.147 (UTC+0000)] [32minfo/network[0m	TCP	| Listening on all interfaces
+[2025-10-26 04:40:33.158 (UTC+0000)] [32minfo/network[0m	TCP 9	| Creating listen socket for "0.0.0.0" (with local hostname "e3751b71353e") on port 4841
+[2025-10-26 04:40:33.158 (UTC+0000)] [32minfo/server[0m	New DiscoveryUrl added: opc.tcp://e3751b71353e:4841
+[2025-10-26 04:40:33.158 (UTC+0000)] [32minfo/network[0m	TCP 10	| Creating listen socket for "::" (with local hostname "e3751b71353e") on port 4841

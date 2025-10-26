@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  opcua-research:
+    build: .
+    container_name: opcua-research
+    ports:
+      - "4840:4840"  # Python OPC UA
+      - "4841:4841"  # Node.js OPC UA
+      - "4842:4842"  # open62541
+      - "4843:4843"  # FreeOpcUa
+      - "4844:4844"  # Eclipse Milo
+    volumes:
+      - ./results:/root/opcua-research/results
+      - ./logs:/root/opcua-research/logs
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: /bin/bash -c "./setup_environment.sh && tail -f /dev/null"
+    networks:
+      - opcua-network
+
+networks:
+  opcua-network:
+    driver: bridge
+
+
+

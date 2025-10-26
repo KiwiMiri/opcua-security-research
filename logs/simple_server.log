@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/root/opcua-research/servers/python/opcua_server_secure_simple.py", line 29, in <module>
+    main()
+  File "/root/opcua-research/servers/python/opcua_server_secure_simple.py", line 19, in main
+    server.start()
+  File "/root/opcua-research/venv/lib/python3.12/site-packages/opcua/server/server.py", line 355, in start
+    raise exp
+  File "/root/opcua-research/venv/lib/python3.12/site-packages/opcua/server/server.py", line 352, in start
+    self.bserver.start()
+  File "/root/opcua-research/venv/lib/python3.12/site-packages/opcua/server/binary_server_asyncio.py", line 116, in start
+    self._server = self.loop.run_coro_and_wait(coro)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/opcua-research/venv/lib/python3.12/site-packages/opcua/common/utils.py", line 197, in run_coro_and_wait
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1572, in create_server
+    raise OSError(err.errno, msg) from None
+OSError: [Errno 98] error while attempting to bind on address ('0.0.0.0', 4840): address already in use

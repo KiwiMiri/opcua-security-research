@@ -1,0 +1,87 @@
+Requested secure channel timeout to be 3600000ms, got 600000ms instead
+Requested secure channel timeout to be 3600000ms, got 600000ms instead
+Requested session timeout to be 600000ms, got 3000000ms instead
+Collecting endpoint information from all servers...
+
+=== python-opcua (port 4840) ===
+Found 1 endpoints:
+  Endpoint 0:
+    URL: opc.tcp://127.0.0.1:4840
+    SecurityMode: 1
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None
+    UserIdentityTokens: 1 tokens
+
+=== open62541 (port 4841) ===
+Found 1 endpoints:
+  Endpoint 0:
+    URL: opc.tcp://localhost:4841
+    SecurityMode: 1
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None
+    UserIdentityTokens: 1 tokens
+
+=== node-opcua (port 4842) ===
+Found 7 endpoints:
+  Endpoint 0:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 1
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None
+    UserIdentityTokens: 5 tokens
+  Endpoint 1:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 2
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256
+    UserIdentityTokens: 3 tokens
+  Endpoint 2:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 2
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep
+    UserIdentityTokens: 3 tokens
+  Endpoint 3:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 2
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss
+    UserIdentityTokens: 3 tokens
+  Endpoint 4:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 3
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256
+    UserIdentityTokens: 3 tokens
+  Endpoint 5:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 3
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep
+    UserIdentityTokens: 3 tokens
+  Endpoint 6:
+    URL: opc.tcp://e3751b71353e:4842/UA/ResearchServer
+    SecurityMode: 3
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss
+    UserIdentityTokens: 3 tokens
+
+=== freeopcua (port 4843) ===
+Found 1 endpoints:
+  Endpoint 0:
+    URL: opc.tcp://127.0.0.1:4843/freeopcua/server/
+    SecurityMode: 1
+    SecurityPolicyUri: http://opcfoundation.org/UA/SecurityPolicy#None
+    UserIdentityTokens: 3 tokens
+
+=== eclipse-milo (port 4844) ===
+Error: [Errno 111] Connection refused
+
+=== Summary ===
+python-opcua: 1 endpoints
+  - http://opcfoundation.org/UA/SecurityPolicy#None (1)
+open62541: 1 endpoints
+  - http://opcfoundation.org/UA/SecurityPolicy#None (1)
+node-opcua: 7 endpoints
+  - http://opcfoundation.org/UA/SecurityPolicy#None (1)
+  - http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256 (2)
+  - http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep (2)
+  - http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss (2)
+  - http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256 (3)
+  - http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep (3)
+  - http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss (3)
+freeopcua: 1 endpoints
+  - http://opcfoundation.org/UA/SecurityPolicy#None (1)
+
+Results saved to endpoints_info.json

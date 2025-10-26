@@ -1,0 +1,42 @@
+# OPC UA 구현체 테스트 요약
+
+생성 시간: Sun Oct 26 02:50:04 UTC 2025
+
+## 테스트된 구현체
+freeopcua_test_20251026_024533
+freeopcua_test_20251026_024724
+freeopcua_test_20251026_024950
+nodeopcua_test_20251026_024533
+nodeopcua_test_20251026_024724
+nodeopcua_test_20251026_024950
+pythonopcua_test_20251026_024533
+pythonopcua_test_20251026_024724
+pythonopcua_test_20251026_024950
+
+## PCAP 파일
+-rw-r--r-- 1 tcpdump tcpdump   24 Oct 26 02:45 pcaps/freeopcua_test_20251026_024533.pcap
+-rw-r--r-- 1 tcpdump tcpdump 3.5K Oct 26 02:47 pcaps/freeopcua_test_20251026_024724.pcap
+-rw-r--r-- 1 tcpdump tcpdump 3.5K Oct 26 02:49 pcaps/freeopcua_test_20251026_024950.pcap
+-rw-r--r-- 1 tcpdump tcpdump   24 Oct 26 02:45 pcaps/nodeopcua_test_20251026_024533.pcap
+-rw-r--r-- 1 tcpdump tcpdump   24 Oct 26 02:47 pcaps/nodeopcua_test_20251026_024724.pcap
+-rw-r--r-- 1 tcpdump tcpdump  19K Oct 26 02:49 pcaps/nodeopcua_test_20251026_024950.pcap
+-rw-r--r-- 1 tcpdump tcpdump 3.5K Oct 26 02:45 pcaps/pythonopcua_test_20251026_024533.pcap
+-rw-r--r-- 1 tcpdump tcpdump 3.5K Oct 26 02:47 pcaps/pythonopcua_test_20251026_024724.pcap
+-rw-r--r-- 1 tcpdump tcpdump 3.5K Oct 26 02:49 pcaps/pythonopcua_test_20251026_024950.pcap
+
+## 서버 로그
+-rw-r--r-- 1 root root    0 Oct 26 02:18 logs/anssi_server.log
+-rw-r--r-- 1 root root 2.2K Oct 26 01:45 logs/eclipse_milo_server.log
+-rw-r--r-- 1 root root  14K Oct 26 02:49 logs/freeopcua_server.log
+-rw-r--r-- 1 root root  103 Oct 26 01:45 logs/nodejs_server.log
+-rw-r--r-- 1 root root  267 Oct 26 02:49 logs/nodeopcua_server.log
+-rw-r--r-- 1 root root  110 Oct 26 01:45 logs/open62541_server.log
+-rw-r--r-- 1 root root  18K Oct 26 02:02 logs/python_server.log
+-rw-r--r-- 1 root root  14K Oct 26 02:49 logs/pythonopcua_server.log
+-rw-r--r-- 1 root root 1.2K Oct 26 02:02 logs/simple_server.log
+
+## 다음 단계
+1. pcaps/ 디렉토리에서 각 PCAP 확인
+2. tshark로 프레임 분석: tshark -r pcaps/<file>.pcap -Y "opcua"
+3. 평문 검색: strings pcaps/<file>.pcap | grep -i password
+

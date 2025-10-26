@@ -1,0 +1,9 @@
+서버 연결 중: opc.tcp://127.0.0.1:4841/UA/ResearchServer
+사용자: testuser
+Sending plain-text password
+✓ 연결 성공
+✗ 실패: Cannot read properties of undefined (reading 'UserName')
+TypeError: Cannot read properties of undefined (reading 'UserName')
+    at main (/root/opcua-research/clients/nodejs_client.js:26:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+연결 종료

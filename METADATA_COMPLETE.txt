@@ -1,0 +1,196 @@
+# OPC UA 구현체 완전한 메타데이터
+# 생성 일시: 2025-10-26T04:14:01Z
+
+## 1. Python-opcua
+Package: opcua
+Version: 0.98.13
+Location: /root/opcua-research/venv/lib/python3.12/site-packages
+Requires: lxml, python-dateutil, pytz
+Version check:
+__file__: /root/opcua-research/venv/lib/python3.12/site-packages/opcua/__init__.py
+
+## 2. FreeOpcUa
+Version: 0.90.6
+Location: /root/opcua-research/venv/lib/python3.12/site-packages
+
+## 3. Node.js opcua
+/usr/local/lib
+`-- node-opcua@2.157.0
+
+
+## 4. Eclipse Milo
+Version:
+      <version>0.6.9</version>
+Java version:
+openjdk version "17.0.16" 2025-07-15
+Maven version:
+[1mApache Maven 3.8.7[m
+
+## 5. S2OPC
+Git commit:
+  Hash: 2554226f982c35c1e437cb0387eb4f347ea17865
+  Short: 2554226f9
+  Date: 2025-10-20 15:02:07 +0200
+  Message: Ticket #1548: WriteRequest builder: add documentation on value provided
+
+Build environment:
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0
+cmake version 3.28.3
+
+## 6. open62541
+Binary: servers/open62541/server.c (source file)
+6f08ce168ac9ef404020c6c531c9daad8aa43ea7dcb21f200ec8b55e5c8c27f8  servers/open62541/server.c
+
+## 7. System Environment
+OS:
+Linux e3751b71353e 6.10.14-linuxkit #1 SMP Tue Apr 15 16:00:54 UTC 2025 aarch64 aarch64 aarch64 GNU/Linux
+
+Python version:
+Python 3.12.3
+
+Node version:
+v18.19.1
+
+## 8. PCAP Files (SHA256)
+File: pcaps/nodeopcua_test_20251026_024724.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/nodeopcua_test_20251026_024724.pcap
+
+File: pcaps/pythonopcua_test_20251026_024533.pcap
+0f4297cdb66e6cfda0cddf133bab6bf3ca558fe26d0f022307c57af55467a293  pcaps/pythonopcua_test_20251026_024533.pcap
+
+File: pcaps/milo_normal.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/milo_normal.pcap
+
+File: pcaps/nodeopcua_20251026_025314.pcap
+3b22d2bb6d41721d3bffd902a5ff7da718f2bb78bede54bf261d52b9761f7042  pcaps/nodeopcua_20251026_025314.pcap
+
+File: pcaps/open62541_attack.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/open62541_attack.pcap
+
+File: pcaps/python_username_normal.pcap
+3853288aad66a22c920b0ae7efe9b67b7b7c59de3d1b78a30d262aac0c2c9c72  pcaps/python_username_normal.pcap
+
+File: pcaps/freeopcua_test_20251026_024950.pcap
+a8b3a667da570612a8395d4f1fdb28dbf8a523394b10956e12272a5145f899c2  pcaps/freeopcua_test_20251026_024950.pcap
+
+File: pcaps/nodeopcua_test_20251026_024950.pcap
+c0f1675dbae58f245243fda43339868b05d4105767d01404b2e95d8592364a52  pcaps/nodeopcua_test_20251026_024950.pcap
+
+File: pcaps/pythonopcua_test_20251026_024724.pcap
+5425b21996093232c17ca229663fdfad9cf2de07329c0f42b052384297880a72  pcaps/pythonopcua_test_20251026_024724.pcap
+
+File: pcaps/open62541_normal.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/open62541_normal.pcap
+
+File: pcaps/anssi_attack.pcap
+f4d680576c207566f66dc99d1500508d16a74b8aed948242490424794fa970c4  pcaps/anssi_attack.pcap
+
+File: pcaps/freeopcua_test_20251026_024533.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/freeopcua_test_20251026_024533.pcap
+
+File: pcaps/freeopcua_20251026_025314.pcap
+c7020459a8566d53e9bb49815ac21561f232df49e7c326fd60959424c3132763  pcaps/freeopcua_20251026_025314.pcap
+
+File: pcaps/freeopcua_attack.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/freeopcua_attack.pcap
+
+File: pcaps/node_normal.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/node_normal.pcap
+
+File: pcaps/anssi_scenario/plaintext_test.pcap
+d42a631c060ecc025622b5e5f25a2009ae97f8f989dccb37ec42b412cab51207  pcaps/anssi_scenario/plaintext_test.pcap
+
+File: pcaps/anssi_scenario/scenario_baseline_none.pcap
+4d46bbf443cd84e42ff2303544908682efcc8fec552fde41b0342981bbaa7814  pcaps/anssi_scenario/scenario_baseline_none.pcap
+
+File: pcaps/anssi_scenario/scenario_none.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/anssi_scenario/scenario_none.pcap
+
+File: pcaps/anssi_scenario/scenario_a_baseline.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/anssi_scenario/scenario_a_baseline.pcap
+
+File: pcaps/anssi_scenario/scenario_b_encrypted.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/anssi_scenario/scenario_b_encrypted.pcap
+
+File: pcaps/freeopcua_test_20251026_024724.pcap
+a1dca0baf66fa504aa162901e4b40a1ba710546ae58fe2e563f930283a837c65  pcaps/freeopcua_test_20251026_024724.pcap
+
+File: pcaps/milo_attack.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/milo_attack.pcap
+
+File: pcaps/node_attack.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/node_attack.pcap
+
+File: pcaps/pythonopcua_test_20251026_024950.pcap
+544e0939f5e6477ebbc3582ca9bb7ac1936d176efc0d0ca5fef7ccbc08f76ae6  pcaps/pythonopcua_test_20251026_024950.pcap
+
+File: pcaps/anssi_normal.pcap
+8266da6c48e5dd91b584b7123e3c3d94e6a14d99432890904b379b4b92c3cd56  pcaps/anssi_normal.pcap
+
+File: pcaps/python_normal.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/python_normal.pcap
+
+File: pcaps/pythonopcua_20251026_025314.pcap
+d54f6a280f6b2f9b2c2908c031d15a9a09dfc2c1e978e7276120ed98fc6fa2f2  pcaps/pythonopcua_20251026_025314.pcap
+
+File: pcaps/python_attack.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/python_attack.pcap
+
+File: pcaps/auto_capture_20251026_014839.pcap
+5aa4bf65bbce3d9e8cf9e92ff7d0668b7f7dc41e728fb27fffafb24012c08a95  pcaps/auto_capture_20251026_014839.pcap
+
+File: pcaps/freeopcua_normal.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/freeopcua_normal.pcap
+
+File: pcaps/nodeopcua_test_20251026_024533.pcap
+e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749  pcaps/nodeopcua_test_20251026_024533.pcap
+
+
+## 9. Binary Executables (SHA256)
+File: servers/eclipse-milo/start_server.sh
+3a37ae49e962405cb1f91ba374da58a153746d72becb772fc19759e073ae1030  servers/eclipse-milo/start_server.sh
+File: servers/python/opcua_server_anssi_final.py
+6be4694248058a19b2f425982eb76d88af0a7dd809fc732c6cbeb8c93670ade6  servers/python/opcua_server_anssi_final.py
+File: servers/python/opcua_server_anssi_multi.py
+f7e2d50a2265c8d5f3da875de618c239e6ab84280261acc613c923c10337fb86  servers/python/opcua_server_anssi_multi.py
+File: servers/python/opcua_server_secure_simple.py
+5ec122b8af0b616fad39f0e2baacb2a222c0f1c5d9d8bf339674006dbad3c009  servers/python/opcua_server_secure_simple.py
+File: servers/python/opcua_server_anssi.py
+edd2261a113ff18da29cd48b6a4b082e095b443cf0e303590cd415131702bc21  servers/python/opcua_server_anssi.py
+File: servers/python/opcua_server_with_certs.py
+90877cd49a94e97cee0705cf893a82b1f34128a7a8bea3af677cba16c6a931fd  servers/python/opcua_server_with_certs.py
+File: servers/python/opcua_server_secure.py
+30352afbd8913acfdda65970b4fb21f48754d36e837df30926283fa29a771f5f  servers/python/opcua_server_secure.py
+File: servers/python/opcua_server.py
+ed3acc8d9625e5973e9bf21f0a029ac43fcc8c8300f26dc47f5ea656b147f826  servers/python/opcua_server.py
+File: servers/python/opcua_server_encrypt_only.py
+18b2aef6a9dc3252acffb32ea25e2ed12d9dd8369924898f2949e13a67593809  servers/python/opcua_server_encrypt_only.py
+File: servers/python/opcua_server_signenc.py
+ff9e3fa59f47455bc747110ab3d004f2c72eb6ef73998c0d3074d77823cd290d  servers/python/opcua_server_signenc.py
+
+
+## open62541 상세 정보 (추가)
+
+파일: servers/open62541/server.c
+SHA256: 6f08ce168ac9ef404020c6c531c9daad8aa43ea7dcb21f200ec8b55e5c8c27f8
+크기: 1.6KB
+상태: 소스 파일 (서버 애플리케이션 코드)
+내용: open62541 기반 OPC UA 서버 C 코드
+빌드 정보: 컴파일된 바이너리 없음 (소스만 존재)
+
+참고: 이 파일은 open62541 라이브러리 기반의 서버 애플리케이션 코드입니다.
+실제 open62541 라이브러리 자체의 버전은 별도로 확인 필요.
+
+
+## open62541 버전 확인 (완료)
+
+버전: 1.5.0
+출처: open62541/build/open62541ConfigVersion.cmake
+확인 내용:
+set(PACKAGE_VERSION "1.5.0")
+
+추가 정보:
+- 빌드 타입: 64-bit
+- 라이브러리 경로: open62541/build/bin/libopen62541.a
+- 소스 코드: servers/open62541/server.c (애플리케이션 레벨)
+

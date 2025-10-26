@@ -1,0 +1,20 @@
+# OPC UA 구현체 버전 정보
+=
+
+## S2OPC
+Commit: 2554226f982c35c1e437cb0387eb4f347ea17865
+Branch: HEAD -> master, origin/master, origin/HEAD
+Date: 2025-10-20 15:02:07 +0200
+Message: Ticket #1548: WriteRequest builder: add documentation on value provided
+
+
+## Eclipse Milo
+1.0-SNAPSHOT
+## Python-opcua
+Version: 0.98.13
+
+## Node.js opcua
+Version: `-- node-opcua@2.157.0
+
+## FreeOpcUa
+

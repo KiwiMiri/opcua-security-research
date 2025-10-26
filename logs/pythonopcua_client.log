@@ -1,0 +1,6 @@
+Sending plain-text password
+서버 연결 중: opc.tcp://127.0.0.1:4840
+사용자: testuser
+✓ 연결 성공
+✓ 루트 노드: i=84
+연결 종료

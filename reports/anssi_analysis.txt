@@ -1,0 +1,16 @@
+ANSSI Scenario Analysis Report
+================================================================================
+
+Scenario A (Baseline - None mode):
+  PCAP: /root/opcua-research/pcaps/anssi_scenario/scenario_a_baseline.pcap
+  Expected: Plaintext credentials visible
+
+Scenario B (Encrypted - SignAndEncrypt mode):
+  PCAP: /root/opcua-research/pcaps/anssi_scenario/scenario_b_encrypted.pcap
+  Expected: Encrypted blob, no plaintext
+
+Next Steps:
+1. Open PCAP files in Wireshark
+2. Search for 'UserNameIdentityToken' frames
+3. Compare hex dumps between scenarios
+4. Extract frame numbers and offsets

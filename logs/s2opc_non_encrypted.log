@@ -1,0 +1,7 @@
+S2OPC_Common       - Version: 1.6.0*, SrcCommit: 2554226f982c35c1e437cb0387eb4f347ea17865, DockerId: , BuildDate: 2025-10-26
+S2OPC_ClientServer - Version: 1.6.0*, SrcCommit: 2554226f982c35c1e437cb0387eb4f347ea17865, DockerId: , BuildDate: 2025-10-26
+<Test_Server_Toolkit: initialized
+<SOPC_TestHelper_AskPass_FromEnv: The following environment variable is missing: TEST_PASSWORD_PRIVATE_KEY
+<Test_Server_Toolkit: Failed loading certificates and key (check paths are valid)
+<Test_Server_Toolkit: Error during configuration phase, see logs in ./toolkit_test_server_samples/PubSub_ClientServer/data/config/controller_server_config.xml_logs/ directory for details.
+<Test_Server_Toolkit: Terminating with error status, see logs in ./toolkit_test_server_samples/PubSub_ClientServer/data/config/controller_server_config.xml_logs/ directory for details.

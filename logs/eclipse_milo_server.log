@@ -1,0 +1,15 @@
+=== Eclipse Milo OPC UA Server ===
+Starting on port 4844...
+03:27:50.355 [main] INFO org.eclipse.milo.opcua.sdk.server.OpcUaServer -- Java version: 17.0.16
+03:27:50.357 [main] INFO org.eclipse.milo.opcua.sdk.server.OpcUaServer -- Eclipse Milo OPC UA Stack version: dev
+03:27:50.358 [main] INFO org.eclipse.milo.opcua.sdk.server.OpcUaServer -- Eclipse Milo OPC UA Server SDK version: dev
+03:27:50.679 [main] DEBUG org.eclipse.milo.opcua.sdk.server.api.AddressSpaceManager -- registered org.eclipse.milo.opcua.sdk.server.namespaces.OpcUaNamespace@f73dcd6
+03:27:51.122 [main] INFO org.eclipse.milo.opcua.sdk.server.namespaces.OpcUaNamespace -- Loaded 2004 nodes in 442ms.
+03:27:51.155 [main] DEBUG org.eclipse.milo.opcua.sdk.server.api.AddressSpaceManager -- registered org.eclipse.milo.opcua.sdk.server.namespaces.ServerNamespace@3aa3193a
+03:27:51.156 [main] DEBUG org.eclipse.milo.opcua.sdk.server.namespaces.ServerNamespace -- registered org.eclipse.milo.opcua.sdk.server.namespaces.ServerNamespace$DiagnosticsFragment@1ee4730
+03:27:51.156 [main] DEBUG org.eclipse.milo.opcua.sdk.server.diagnostics.objects.ServerDiagnosticsObject -- ServerDiagnosticsNode onStartup()
+03:27:51.163 [main] DEBUG org.eclipse.milo.opcua.sdk.server.namespaces.ServerNamespace -- registered org.eclipse.milo.opcua.sdk.server.namespaces.ServerNamespace$VendorServerInfoFragment@5910de75
+?? ?? ??!
+?????: opc.tcp://localhost:4844
+?? ??: None (NoSecurity) - ?? ???? ?? ??
+WARNING: NoSecurity ?? - ?? ????? ??? ? ????!

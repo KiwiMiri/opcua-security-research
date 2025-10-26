@@ -1,0 +1,50 @@
+[2025-10-26 05:05:25.767 (UTC+0000)] [33mwarn/server[0m	AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2025-10-26 05:05:25.767 (UTC+0000)] [32minfo/server[0m	AccessControl: Anonymous login is enabled
+[2025-10-26 05:05:25.767 (UTC+0000)] [33mwarn/server[0m	x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2025-10-26 05:05:25.768 (UTC+0000)] [32minfo/session[0m	TCP 0	| SC 0	| Session "Administrator"	| AddNode (i=15303): No TypeDefinition. Use the default TypeDefinition for the Variable/Object
+[2025-10-26 05:05:25.770 (UTC+0000)] [32minfo/session[0m	TCP 0	| SC 0	| Session "Administrator"	| AddNode (i=25451): No TypeDefinition. Use the default TypeDefinition for the Variable/Object
+[2025-10-26 05:05:25.775 (UTC+0000)] [33mwarn/userland[0m	ServerUrls already set. Overriding.
+[2025-10-26 05:05:25.775 (UTC+0000)] [32minfo/network[0m	TCP	| Listening on all interfaces
+[2025-10-26 05:05:25.786 (UTC+0000)] [32minfo/network[0m	TCP 9	| Creating listen socket for "0.0.0.0" (with local hostname "e3751b71353e") on port 4841
+[2025-10-26 05:05:25.786 (UTC+0000)] [32minfo/server[0m	New DiscoveryUrl added: opc.tcp://e3751b71353e:4841
+[2025-10-26 05:05:25.787 (UTC+0000)] [32minfo/network[0m	TCP 10	| Creating listen socket for "::" (with local hostname "e3751b71353e") on port 4841
+[2025-10-26 05:07:45.090 (UTC+0000)] [32minfo/network[0m	TCP 11	| Connection opened from "::1" via the server socket 10
+[2025-10-26 05:07:45.090 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 1	| SecureChannel created
+[2025-10-26 05:07:45.091 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 1	| SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.0s
+[2025-10-26 05:07:45.092 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:07:45.094 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 1	| Session "Pure Python Client Session1"	| Session created
+[2025-10-26 05:07:45.095 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 1	| Session "Pure Python Client Session1"	| ActivateSession: Session activated with ClientUserId ""
+[2025-10-26 05:07:45.095 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:07:45.095 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 1	| Session "Pure Python Client Session1"	| Closing the Session
+[2025-10-26 05:07:45.095 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 1	| SecureChannel closed
+[2025-10-26 05:07:45.095 (UTC+0000)] [32minfo/network[0m	TCP 11	| Socket closed
+[2025-10-26 05:08:02.998 (UTC+0000)] [32minfo/network[0m	TCP 11	| Connection opened from "::1" via the server socket 10
+[2025-10-26 05:08:02.998 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 2	| SecureChannel created
+[2025-10-26 05:08:02.999 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 2	| SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.0s
+[2025-10-26 05:08:03.000 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:08:03.002 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 2	| Session "Pure Python Client Session1"	| Session created
+[2025-10-26 05:08:03.003 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 2	| Session "Pure Python Client Session1"	| ActivateSession: Session activated with ClientUserId ""
+[2025-10-26 05:08:03.003 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:08:03.003 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 2	| Session "Pure Python Client Session1"	| Closing the Session
+[2025-10-26 05:08:03.004 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 2	| SecureChannel closed
+[2025-10-26 05:08:03.004 (UTC+0000)] [32minfo/network[0m	TCP 11	| Socket closed
+[2025-10-26 05:09:27.615 (UTC+0000)] [32minfo/network[0m	TCP 11	| Connection opened from "::1" via the server socket 10
+[2025-10-26 05:09:27.615 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 3	| SecureChannel created
+[2025-10-26 05:09:27.616 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 3	| SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.0s
+[2025-10-26 05:09:27.616 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:09:27.618 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 3	| Session "Pure Python Client Session1"	| Session created
+[2025-10-26 05:09:27.619 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 3	| Session "Pure Python Client Session1"	| ActivateSession: Session activated with ClientUserId ""
+[2025-10-26 05:09:27.619 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:09:27.619 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 3	| Session "Pure Python Client Session1"	| Closing the Session
+[2025-10-26 05:09:27.620 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 3	| SecureChannel closed
+[2025-10-26 05:09:27.620 (UTC+0000)] [32minfo/network[0m	TCP 11	| Socket closed
+[2025-10-26 05:54:29.571 (UTC+0000)] [32minfo/network[0m	TCP 11	| Connection opened from "::1" via the server socket 10
+[2025-10-26 05:54:29.573 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 4	| SecureChannel created
+[2025-10-26 05:54:29.574 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 4	| SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.0s
+[2025-10-26 05:54:29.575 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:54:29.577 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 4	| Session "Pure Python Client Session1"	| Session created
+[2025-10-26 05:54:29.578 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 4	| Session "Pure Python Client Session1"	| ActivateSession: Session activated with ClientUserId ""
+[2025-10-26 05:54:29.578 (UTC+0000)] [33mwarn/client[0m	Removing a UserTokenPolicy that would allow the password to be transmitted without encryption (Can be enabled via config->allowNonePolicyPassword)
+[2025-10-26 05:54:29.578 (UTC+0000)] [32minfo/session[0m	TCP 11	| SC 4	| Session "Pure Python Client Session1"	| Closing the Session
+[2025-10-26 05:54:29.579 (UTC+0000)] [32minfo/channel[0m	TCP 11	| SC 4	| SecureChannel closed
+[2025-10-26 05:54:29.579 (UTC+0000)] [32minfo/network[0m	TCP 11	| Socket closed

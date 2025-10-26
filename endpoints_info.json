@@ -1,0 +1,72 @@
+{
+  "python-opcua": {
+    "count": 1,
+    "endpoints": [
+      {
+        "url": "opc.tcp://127.0.0.1:4840",
+        "security_mode": "1",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#None"
+      }
+    ]
+  },
+  "open62541": {
+    "count": 1,
+    "endpoints": [
+      {
+        "url": "opc.tcp://localhost:4841",
+        "security_mode": "1",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#None"
+      }
+    ]
+  },
+  "node-opcua": {
+    "count": 7,
+    "endpoints": [
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "1",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#None"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "2",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "2",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "2",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "3",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "3",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Aes128_Sha256_RsaOaep"
+      },
+      {
+        "url": "opc.tcp://e3751b71353e:4842/UA/ResearchServer",
+        "security_mode": "3",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#Aes256_Sha256_RsaPss"
+      }
+    ]
+  },
+  "freeopcua": {
+    "count": 1,
+    "endpoints": [
+      {
+        "url": "opc.tcp://127.0.0.1:4843/freeopcua/server/",
+        "security_mode": "1",
+        "security_policy": "http://opcfoundation.org/UA/SecurityPolicy#None"
+      }
+    ]
+  }
+}

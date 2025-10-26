@@ -1,0 +1,40 @@
+INFO:__main__:======================================================================
+INFO:__main__:ANSSI BASELINE: Force SignAndEncrypt (ENCRYPTED credentials)
+INFO:__main__:======================================================================
+WARNING:__main__:Could not set security string: Wrong format: `Basic256Sha256,SignAndEncrypt`, expected at least 4 comma-separated values
+INFO:__main__:Will attempt normal connection
+INFO:__main__:Connecting to: opc.tcp://localhost:4840
+INFO:__main__:Security Policy: Basic256Sha256_SignAndEncrypt
+INFO:__main__:Authentication: UserNameIdentityToken
+INFO:__main__:Expected: Credentials should be ENCRYPTED
+INFO:opcua.client.ua_client.Socket:opening connection
+INFO:opcua.client.ua_client.Socket:Thread started
+INFO:opcua.uaprotocol:received header: Header(type:b'ACK', chunk_type:b'F', body_size:20, channel:0)
+INFO:opcua.client.ua_client.Socket:open_secure_channel
+INFO:opcua.uaprotocol:received header: Header(type:b'OPN', chunk_type:b'F', body_size:123, channel:6)
+INFO:opcua.client.ua_client:create_session
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:2362, channel:6)
+WARNING:opcua.client.client:Sending plain-text password
+INFO:opcua.client.ua_client:activate_session
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:84, channel:6)
+INFO:__main__:✓ Connected successfully!
+INFO:__main__:✓ Credentials transmitted with ENCRYPTION
+INFO:__main__:Root node: i=84
+INFO:opcua.client.ua_client:read
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:151, channel:6)
+INFO:opcua.client.ua_client:translate_browsepath_to_nodeid
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:67, channel:6)
+INFO:opcua.client.ua_client:read
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:70, channel:6)
+INFO:__main__:✓ Test variable value: 42
+INFO:__main__:✓ Baseline test completed successfully
+INFO:opcua.client.ua_client:close_session
+INFO:opcua.uaprotocol:received header: Header(type:b'MSG', chunk_type:b'F', body_size:40, channel:6)
+INFO:opcua.client.ua_client.Socket:close_secure_channel
+INFO:opcua.client.ua_client.Socket:Request to close socket received
+INFO:opcua.client.ua_client.Socket:Socket closed, waiting for receiver thread to terminate...
+INFO:opcua.client.ua_client.Socket:Socket has closed connection
+INFO:opcua.client.ua_client.Socket:Cancelling request 8
+INFO:opcua.client.ua_client.Socket:Thread ended
+INFO:opcua.client.ua_client.Socket:Done closing socket: Receiving thread terminated, socket disconnected
+INFO:__main__:Disconnected

@@ -1,0 +1,27 @@
+implementation	language	version	test_type	frame_number	hex_offset	observation	security_policy_offered	plaintext_credentials_found	pcap_file	notes
+anssi\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tanssi_attack.pcap\tNo OPC UA protocol
+anssi\tUnknown\tUnknown\tnormal\t-\t-\t-\tNot captured\tNo\tanssi_normal.pcap\tCaptured 21 packets, 11 OPC UA messages
+auto\tUnknown\tUnknown\tunknown\t-\t-\t-\tNot captured\tNo\tauto_capture_20251026_014839.pcap\tCaptured 46 packets, 11 OPC UA messages
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tfreeopcua_20251026_025314.pcap\tNo OPC UA protocol
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tfreeopcua_attack.pcap\tFile too small
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tfreeopcua_normal.pcap\tFile too small
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tfreeopcua_test_20251026_024533.pcap\tFile too small
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tfreeopcua_test_20251026_024724.pcap\tNo OPC UA protocol
+freeopcua\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tfreeopcua_test_20251026_024950.pcap\tNo OPC UA protocol
+milo\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tmilo_attack.pcap\tFile too small
+milo\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tmilo_normal.pcap\tFile too small
+node\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tnode_attack.pcap\tFile too small
+node\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tnode_normal.pcap\tFile too small
+nodeopcua\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tnodeopcua_20251026_025314.pcap\tNo OPC UA protocol
+nodeopcua\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tnodeopcua_test_20251026_024533.pcap\tFile too small
+nodeopcua\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tnodeopcua_test_20251026_024724.pcap\tFile too small
+nodeopcua\tUnknown\tUnknown\tN/A\t-\t-\tNo OPC UA messages\tN/A\tNo\tnodeopcua_test_20251026_024950.pcap\tNo OPC UA protocol
+open62541\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\topen62541_attack.pcap\tFile too small
+open62541\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\topen62541_normal.pcap\tFile too small
+python\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tpython_attack.pcap\tFile too small
+python\tUnknown\tUnknown\tN/A\t-\t-\tEmpty PCAP (< 100 bytes)\tN/A\tNo\tpython_normal.pcap\tFile too small
+python\tUnknown\tUnknown\tnormal\t-\t-\t-\tNot captured\tNo\tpython_username_normal.pcap\tCaptured 21 packets, 11 OPC UA messages
+pythonopcua\tUnknown\tUnknown\tunknown\t-\t-\t-\tNot captured\tNo\tpythonopcua_20251026_025314.pcap\tCaptured 24 packets, 11 OPC UA messages
+pythonopcua\tUnknown\tUnknown\tunknown\t-\t-\t-\tNot captured\tNo\tpythonopcua_test_20251026_024533.pcap\tCaptured 21 packets, 11 OPC UA messages
+pythonopcua\tUnknown\tUnknown\tunknown\t-\t-\t-\tNot captured\tNo\tpythonopcua_test_20251026_024724.pcap\tCaptured 21 packets, 11 OPC UA messages
+pythonopcua\tUnknown\tUnknown\tunknown\t-\t-\t-\tNot captured\tNo\tpythonopcua_test_20251026_024950.pcap\tCaptured 21 packets, 11 OPC UA messages
